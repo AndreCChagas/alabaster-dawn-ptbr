@@ -2,6 +2,8 @@
 
 Tradução de fã do **Alabaster Dawn** para o português do Brasil, feita direto do inglês: menus, opções, itens, enciclopédia, diário, Sonho de Somu e todos os diálogos (100% dos textos).
 
+📖 **Guia na Steam:** [Alabaster Dawn tradução não Oficial - pt_BR](https://steamcommunity.com/sharedfiles/filedetails/?id=3735223577)
+
 ## ⬇️ Download
 
 Baixe o arquivo `AlabasterDawn-PTBR-<versão>.zip` da versão mais recente em **[Releases](https://github.com/AndreCChagas/alabaster-dawn-ptbr/releases/latest)**.
