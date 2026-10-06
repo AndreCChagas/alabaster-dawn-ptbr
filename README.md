@@ -17,6 +17,14 @@ Não precisa de nenhum programa extra: o jogo reconhece a tradução sozinho.
 3. Abra o jogo e escolha **Options → Language → Português (Brasil)**.
 4. Feche e abra o jogo de novo.
 
+| Copie isto do ZIP... | ...para a pasta do jogo |
+|---|---|
+| ![](imagens/1-conteudo-do-zip.png) | ![](imagens/2-pasta-do-jogo.png) |
+
+Para conferir, a pasta `pt_BR` tem que aparecer em `terra\data\locale`:
+
+![](imagens/3-pasta-locale.png)
+
 > Deixe a opção **Tradução pela Internet** (*Live Localization*) desligada.
 
 **Atualizando de uma versão anterior:** é só copiar a pasta `terra` do ZIP novo por cima.
