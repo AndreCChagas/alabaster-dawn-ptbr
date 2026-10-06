@@ -1,0 +1,37 @@
+name: Erro na tradução
+description: Texto errado, sem tradução, cortado ou saindo da caixa.
+title: "[Erro] "
+labels: ["bug"]
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da tradução
+      description: Está no nome do ZIP que você baixou (ex.: 1.0.0).
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Texto em inglês (sem tradução)
+        - Erro de português (acento, letra trocada, concordância)
+        - Texto cortado ou saindo da caixa
+        - Tradução estranha ou com sentido errado
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Onde no jogo (cena, personagem, menu) e o que apareceu na tela.
+    validations:
+      required: true
+  - type: textarea
+    id: print
+    attributes:
+      label: Print
+      description: Arraste aqui o print da tela.
